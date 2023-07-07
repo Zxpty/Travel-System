@@ -9,7 +9,7 @@ public class ConexionBD {
     public static Connection obtenerConexion() throws SQLException{
         Connection c = null;
         try {
-            String url = "jdbc:mysql://localhost:3306/Tarea16_Grupo05?user=root&password=1234";
+            String url = "jdbc:mysql://localhost:3306/Tarea16_Grupo05?user=root&password=123456";
             Class.forName("com.mysql.jdbc.Driver");
             c = DriverManager.getConnection(url);
         } catch (ClassNotFoundException e) {
